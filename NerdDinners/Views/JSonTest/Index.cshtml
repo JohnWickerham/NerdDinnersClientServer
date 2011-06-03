@@ -1,0 +1,113 @@
+﻿@model NerdDinnerDomain.Dinner
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Click me", "ClickMe")
+
+@*@if (Model != null)
+{
+    <p>
+        @Model.Title
+    </p>
+}
+
+@if (ViewBag.JsonDinner != null)
+{
+     <p>
+        Json anoymous object from ViewBag - Dinner: @(ViewBag.JsonAnonymous)
+    </p>
+    <p>
+        Json Dinner object from ViewBag - Dinner: @ViewBag.JsonDinner
+    </p>
+    <p>
+        Json Dinner de-serialized from viewbag - Dinner's title: 
+        @{NerdDinnerDomain.Dinner dinner = Json.Decode<NerdDinnerDomain.Dinner>(ViewBag.JsonDinner);}
+        @dinner.Title
+    </p>
+    
+    <p>
+        Unserialzied Dinner from ViewBag - Dinner: @ViewBag.UnserializedDinner
+    </p>
+    
+}*@
+
+
+@if (ViewBag.ListOfDinners != null)
+{
+<table id="example" style="width:100%">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Country</th>
+            <th>EventDate</th>
+        </tr>
+    </thead>
+    @foreach (var d in ViewBag.ListOfDinners)
+    {
+        <tr>
+            <td>@d.Title</td>
+            <td>@d.Country</td>
+            <td>@d.EventDate.ToString("D")</td>
+        </tr>
+    }
+</table>
+    
+    <hr />
+    
+    <table id="test" style="width:100%">
+    <thead>
+        <tr>
+            <th>DinnerId</th>
+            <th>Title</th>
+            <th>Country</th>
+            <th>EventDate</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+
+    
+
+<script type="text/javascript">
+    $(document).ready(function () {
+//        $('#example').dataTable();
+
+//        $('#test').dataTable({
+//            "bProcessing": true,
+//            "bServerSide": true,
+//            "sAjaxSource": '@Url.Action("AjaxHandler")',
+//            "aoColumns": [
+//                        {
+//                        "sName" : "DinnerId", 
+//                          "bSearchable": false,
+//                            "bSortable": false
+//                        },
+//			            { "sName": "Title" },
+//			            { "sName": "Country" },
+//			            { "sName": "EventDate" },
+//                        {"sName":"Address"}
+//		            ]
+//        });
+
+        $('#test').dataTable({
+            "bServerSide": true,
+            "sAjaxSource": '@Url.Action("AjaxHandler")',
+            "bProcessing": true,
+            "aoColumns": [
+                        { "sName": "DinnerId" },
+			            { "sName": "Title" },
+			            { "sName": "Country" },
+			            { "sName": "EventDate" },
+                        { "sName": "Address" }
+		            ]
+        });
+    });
+</script>
+}
+
+

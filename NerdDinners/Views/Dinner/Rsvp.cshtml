@@ -1,0 +1,13 @@
+﻿@model IEnumerable<NerdDinnerDomain.RSVP>
+
+<table cellpadding="4" cellspacing="0" border="0" style="padding-left:50px;">
+    <tr>
+        <th>AttendeeEmail</th>
+    </tr>
+    @foreach (var item in model)
+    {
+        <tr>
+            <td>@item.AttendeeEmail</td>
+        </tr>
+    }
+</table>

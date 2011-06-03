@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67a32659-3f90-4ba2-89f1-a693e4b37623" name="John.Wickerham@L00581 2011-05-05 11:56:49" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-05 11_56_49" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-05T11:56:49.9681667-04:00" queuing="2011-05-05T11:56:50.7581678-04:00" start="2011-05-05T11:56:51.2681685-04:00" finish="2011-05-05T11:57:01.6337861-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AlwaysTestFromBottomUp" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="9faac161-5f2b-20fe-ec20-9daee7fa75e0">
+      <Execution timeOut="1800000" id="b900b845-ce80-4a46-90c6-da0007c2f61e" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IntegerationTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlwaysTestFromBottomUp" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9faac161-5f2b-20fe-ec20-9daee7fa75e0" executionId="b900b845-ce80-4a46-90c6-da0007c2f61e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b900b845-ce80-4a46-90c6-da0007c2f61e" testId="9faac161-5f2b-20fe-ec20-9daee7fa75e0" testName="AlwaysTestFromBottomUp" computerName="L00581" duration="00:00:09.5665494" startTime="2011-05-05T11:56:51.4881688-04:00" endTime="2011-05-05T11:57:01.3529856-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b900b845-ce80-4a46-90c6-da0007c2f61e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

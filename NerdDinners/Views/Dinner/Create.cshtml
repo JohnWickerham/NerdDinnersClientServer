@@ -1,0 +1,71 @@
+﻿@model NerdDinnerDomain.Dinner
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+@*@{
+  if (User.Identity.IsAuthenticated)
+  {
+    //display Credential information
+      displayCredentials.InnerHtml = "Current User : <b>" + User.Identity.Name + "</b>" + "<br><br>Authentication Used : <b>" + User.Identity.AuthenticationType + "</b>";
+  }
+  else
+  {
+    //Display Error Message
+    displayCredentials.InnerHtml = "Sorry, you have not been authenticated.";
+  }
+}
+*@
+
+
+@using (Html.BeginForm())
+{
+   
+<fieldset>
+    <div class="editor-label">
+        @Html.LabelFor(dinner => dinner.Title)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(dinner => dinner.Title)
+        @Html.ValidationMessageFor(dinner => dinner.Title)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(dinner => dinner.EventDate)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(dinner => dinner.EventDate)
+        @Html.ValidationMessageFor(dinner => dinner.EventDate)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(dinner => dinner.Address)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(dinner => dinner.Address)
+        @Html.ValidationMessageFor(dinner => dinner.Address)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(dinner => dinner.HostedBy)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(dinner => dinner.HostedBy)
+        @Html.ValidationMessageFor(dinner => dinner.HostedBy)
+    </div>
+
+    <p>
+        @Html.SubmitButton("save1", "submit", "Save", null)
+    </p>
+    <p>
+        @Html.ActionLink("Cancel", "Index", "Dinner")
+    </p>
+
+    @Html.ValidationSummary()
+
+</fieldset>
+
+    
+}

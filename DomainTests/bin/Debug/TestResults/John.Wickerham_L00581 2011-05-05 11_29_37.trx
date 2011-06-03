@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0f3820a7-f1d3-409c-8ae8-21cbeae77c16" name="John.Wickerham@L00581 2011-05-05 11:29:37" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-05 11_29_37" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-05T11:29:37.8752351-04:00" queuing="2011-05-05T11:29:38.3744360-04:00" start="2011-05-05T11:29:38.8736369-04:00" finish="2011-05-05T11:29:42.7200436-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Create_And_Get_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="00e39147-bf01-fc91-708b-785592c4f69a">
+      <Execution timeOut="1800000" id="1dc6368a-1b9a-4447-8865-150dcc2a6b57" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Create_And_Get_Dinner" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00e39147-bf01-fc91-708b-785592c4f69a" executionId="1dc6368a-1b9a-4447-8865-150dcc2a6b57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1dc6368a-1b9a-4447-8865-150dcc2a6b57" testId="00e39147-bf01-fc91-708b-785592c4f69a" testName="Test_Create_And_Get_Dinner" computerName="L00581" duration="00:00:03.3767978" startTime="2011-05-05T11:29:39.0764372-04:00" endTime="2011-05-05T11:29:42.6020434-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1dc6368a-1b9a-4447-8865-150dcc2a6b57">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. An error occurred while sending the request.</Message>
+          <StackTrace>   at NerdDinnerIntegrationDbTests.DomainTests.Test_Create_And_Get_Dinner() in C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\DomainTests\Integration\NerdDinnerIntegrationDbTests.cs:line 164
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

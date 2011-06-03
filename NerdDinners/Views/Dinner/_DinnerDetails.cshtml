@@ -1,0 +1,46 @@
+﻿@model NerdDinnerDomain.Dinner
+<table>
+<tr>
+<td>@Html.LabelFor(d => d.Title):</td><td>@Html.DisplayFor(d => d.Title)</td>
+</tr>
+<tr>
+<td>@Html.LabelFor(d => d.EventDate):</td><td>@Html.DisplayFor(d=>d.EventDate)</td>
+</tr>
+<tr>
+<td>@Html.LabelFor(d => d.Address):</td><td>@Html.DisplayFor(d => d.Address)</td>
+</tr>
+<tr>
+<td>@Html.LabelFor(d => d.HostedBy):</td><td>@Html.DisplayFor(d => d.HostedBy)</td>
+</tr>
+<tr>
+<td>@Html.Label("Count of RSVPs"):</td><td>@Html.DisplayFor(d => d.RsvpCount)</td>
+</tr>
+</table>
+
+<div id="divUserButtons" style="visibility:@ViewBag.UserButtonVisibility;">
+    @Html.ActionLink("Edit", "Edit", "Dinner", new { Model.DinnerId }, null)
+    @Html.ActionLink("Delete", "Delete", "Dinner", new { Model.DinnerId }, null)
+</div>
+<br />
+<div id="rsvpContainer" style="width:500px">
+    <table id="rsvpTable" align="left">
+        <thead>
+            <tr>
+                <th>Attendee Email</th>
+            </tr>   
+        </thead>  
+        <tbody></tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+ $(document).ready(function () {
+    /* Init the table */
+    $('#rsvpTable').dataTable({
+        "bServerSide": true,
+        "sAjaxSource": '@Url.Action("AjaxHandlerRsvp", new {dinnerId = Model.DinnerId})',
+        "bProcessing": true,
+        "aoColumns": [{"sName": "AttendeeEmail"}]
+    });
+});
+</script>

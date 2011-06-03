@@ -1,0 +1,7 @@
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\bin\Debug\NerdDinnerDomainOperations.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\bin\Debug\NerdDinnerDomainOperations.pdb
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\bin\Debug\DomainObjects.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\bin\Debug\DomainObjects.pdb
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\obj\Debug\NerdDinnerDomainOperations.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnerDomainOperations\obj\Debug\NerdDinnerDomainOperations.pdb

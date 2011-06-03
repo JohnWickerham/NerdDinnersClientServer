@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bcdd478a-7fa7-4fdd-9a60-ff6195c1eea8" name="John.Wickerham@L00581 2011-05-04 15:55:11" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-04 15_55_11" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-04T15:55:11.4628642-04:00" queuing="2011-05-04T15:55:11.7748648-04:00" start="2011-05-04T15:55:12.0088652-04:00" finish="2011-05-04T15:55:20.4328800-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f0a40a78-66e3-1238-1044-0c33ed177fc3">
+      <Execution timeOut="1800000" id="d9793bb0-4f21-4af8-ab7a-d62fb8dcf560" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" executionId="d9793bb0-4f21-4af8-ab7a-d62fb8dcf560" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d9793bb0-4f21-4af8-ab7a-d62fb8dcf560" testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" testName="Test_Get_All_Dinners_From_Returns_Non_Empty_List" computerName="L00581" duration="00:00:08.1508226" startTime="2011-05-04T15:55:12.1336654-04:00" endTime="2011-05-04T15:55:20.3548798-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9793bb0-4f21-4af8-ab7a-d62fb8dcf560">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0e51efea-51f6-4078-aace-00207810f39c" name="John.Wickerham@L00581 2011-06-03 15:19:38" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b0d882f1-55e3-4dfc-8a92-9b28a4f95ad2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="John.Wickerham_L00581 2011-06-03 15_19_38" />
+  </TestSettings>
+  <Times creation="2011-06-03T15:19:38.8252326-04:00" queuing="2011-06-03T15:19:40.4552349-04:00" start="2011-06-03T15:19:41.2052359-04:00" finish="2011-06-03T15:20:45.3153257-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_Filtered_RSVPs_First_10_Succeeds" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="6562fe35-171c-265c-c660-f286d267b4fd">
+      <Execution timeOut="1800000" id="5b403d5d-c891-4f5f-b55e-0af5d5273225" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Filtered_RSVPs_First_10_Succeeds" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6562fe35-171c-265c-c660-f286d267b4fd" executionId="5b403d5d-c891-4f5f-b55e-0af5d5273225" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5b403d5d-c891-4f5f-b55e-0af5d5273225" testId="6562fe35-171c-265c-c660-f286d267b4fd" testName="Test_Get_Filtered_RSVPs_First_10_Succeeds" computerName="L00581" duration="00:01:03.3349220" startTime="2011-06-03T15:19:41.4052362-04:00" endTime="2011-06-03T15:20:45.0953254-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b403d5d-c891-4f5f-b55e-0af5d5273225">
+    </UnitTestResult>
+  </Results>
+</TestRun>

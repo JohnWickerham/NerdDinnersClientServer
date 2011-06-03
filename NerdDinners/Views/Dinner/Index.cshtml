@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<style type="text/css">
+    div.tableWidth
+    {
+        width:700px;
+    }
+    .floatLeft
+    {
+        float:left;
+    }
+    .floatRight
+    {
+        float:right;
+    } 
+</style>
+
+<h2>Index</h2>
+<p>
+    @AuthorizationHelper.CreateButton("Create New", "Create", "Dinner")
+</p>
+
+<div class="tableWidth floatLeft">
+    <table id="DinnerTable" style="width:100%">
+        <thead>
+            <tr>
+                <th>View Details</th>
+                <th>Attend</th>
+                <th>Title</th>
+                <th>Address</th>
+                <th>EventDate</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<div class="floatRight" id="detailContainer"></div>
+
+<div style="clear:both;"></div>
+
+
+<script type="text/javascript">
+    function pageLoad(id) {
+        if (id) {
+            $.ajax({
+                url: "/Dinner/Detail/" + id,
+                success: function (response) {
+                    $("#detailContainer").html(response).show();
+                }
+            });
+        }
+        else {
+            $("#detailContainer").empty();
+        }
+    }
+
+    $(document).ready(function () {
+        $.history.init(pageLoad);
+
+        $('.detailbutton').live('click', function () {
+            var id = this.getAttribute('data-dinnerid');
+            $.history.load(id);
+        });
+
+        $('.attendbutton').live('click', function () {
+            var id = this.getAttribute('data-dinnerid');
+            $.ajax({
+                url: "/Dinner/Attend/" + id,
+                success: function (response) {
+                    $("#detailContainer").html(response).show();
+                }
+            });
+        });
+
+        $('#DinnerTable').dataTable({
+            "bServerSide": true,
+            "sAjaxSource": '@Url.Action("AjaxHandlerDinner")',
+            "bProcessing": true,
+            "aoColumns": [
+                { "fnRender": function (obj) { return '<input class="detailbutton" type="button" value="Details" data-dinnerid="' + obj.aData[0] + '"/>' }, "bSortable": false },
+                { "sName": "Attend", "bSortable": false },
+                { "sName": "Title" },
+                { "sName": "Address" },
+                { "sName": "EventDate" },
+                { "sName": "Country"}]
+        });
+
+//{ "fnRender": function (obj) { return '<input type="button" value="Details" data-dinnerid="' + obj.aData[0] + '"/>' }, "bSortable": false },
+//                { "fnRender": function (obj) { return '<input type="button" value="Attend" data-dinnerid="' + obj.aData[0] + '"/>' }, "bSortable": false },
+        
+//        { "fnRender": function (obj) { return "<input type=button value='Attend' data-dinnerid='" + obj.aData[0].replace(/<.*?>/g, "") + "' />"; }, "bSortable": false },
+    });
+</script>

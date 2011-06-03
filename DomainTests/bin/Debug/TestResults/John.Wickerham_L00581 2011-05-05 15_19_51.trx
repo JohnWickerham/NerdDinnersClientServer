@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="55c558fe-57b5-4f7a-bcb5-6a419ee4fc98" name="John.Wickerham@L00581 2011-05-05 15:19:51" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-05 15_19_51" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-05T15:19:51.5211299-04:00" queuing="2011-05-05T15:19:52.0571307-04:00" start="2011-05-05T15:19:52.4471314-04:00" finish="2011-05-05T15:20:05.9979507-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="8" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f0a40a78-66e3-1238-1044-0c33ed177fc3">
+      <Execution timeOut="1800000" id="254e2ea9-df33-4dd5-bdf8-48fa71cadc75" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" />
+    </UnitTest>
+    <UnitTest name="Test_Delete" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f38c84ef-e374-9413-ce87-f328cf4a7d2f">
+      <Execution timeOut="1800000" id="945fc4c6-478d-49bf-814a-f44331d101c6" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Delete" />
+    </UnitTest>
+    <UnitTest name="AlwaysTestFromBottomUp" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="9faac161-5f2b-20fe-ec20-9daee7fa75e0">
+      <Execution timeOut="1800000" id="d2b3f956-0c1a-4006-8296-5425d2ad6217" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IntegerationTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlwaysTestFromBottomUp" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Dinner_By_Id_Returns_Correct_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="482b4f23-8455-ae6f-2e94-5ba1e9474066">
+      <Execution timeOut="1800000" id="41f40bb3-d25d-4b26-98e8-c206e42ad190" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Dinner_By_Id_Returns_Correct_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Get_All_Dinners_Returns_A_List" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="8510f579-1456-f94f-409e-bb785ff196af">
+      <Execution timeOut="1800000" id="6e63828f-8758-48e9-ab11-009b9cf48a49" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdInnerUnitTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_All_Dinners_Returns_A_List" />
+    </UnitTest>
+    <UnitTest name="Test_Get_HttpClient" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2">
+      <Execution timeOut="1800000" id="4bf8985d-9c38-4617-842d-bfe87c6d8dfd" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_HttpClient" />
+    </UnitTest>
+    <UnitTest name="Test_Create" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f4b7ca29-55ab-4f68-634e-12a2e1e46e5c">
+      <Execution timeOut="1800000" id="f9b66814-f19a-402e-8c4e-b5619f579d17" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Create" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Dinner_ById" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="99182fba-74fd-a696-6880-e4f71e3e2106">
+      <Execution timeOut="1800000" id="a6a8a700-d93d-4e4a-b8ca-4fa03326bd7d" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdInnerUnitTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Dinner_ById" />
+    </UnitTest>
+    <UnitTest name="TestGetAllDinnersReturnsAList" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="e2f4b2ee-0453-7c68-8cd2-0bc6a43cee30">
+      <Execution timeOut="1800000" id="4ba08fdb-9195-441b-a12f-15f93b64d6fe" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IntegerationTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetAllDinnersReturnsAList" />
+    </UnitTest>
+    <UnitTest name="Test_Update_Dinner_And_Get_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="549227d5-0b05-4720-d5cb-9214b83cb63e">
+      <Execution timeOut="1800000" id="42c6f774-cb81-4cce-a901-5b2ed17dd34a" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Update_Dinner_And_Get_Dinner" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9faac161-5f2b-20fe-ec20-9daee7fa75e0" executionId="d2b3f956-0c1a-4006-8296-5425d2ad6217" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2f4b2ee-0453-7c68-8cd2-0bc6a43cee30" executionId="4ba08fdb-9195-441b-a12f-15f93b64d6fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4b7ca29-55ab-4f68-634e-12a2e1e46e5c" executionId="f9b66814-f19a-402e-8c4e-b5619f579d17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f38c84ef-e374-9413-ce87-f328cf4a7d2f" executionId="945fc4c6-478d-49bf-814a-f44331d101c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" executionId="254e2ea9-df33-4dd5-bdf8-48fa71cadc75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="482b4f23-8455-ae6f-2e94-5ba1e9474066" executionId="41f40bb3-d25d-4b26-98e8-c206e42ad190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2" executionId="4bf8985d-9c38-4617-842d-bfe87c6d8dfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="549227d5-0b05-4720-d5cb-9214b83cb63e" executionId="42c6f774-cb81-4cce-a901-5b2ed17dd34a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8510f579-1456-f94f-409e-bb785ff196af" executionId="6e63828f-8758-48e9-ab11-009b9cf48a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99182fba-74fd-a696-6880-e4f71e3e2106" executionId="a6a8a700-d93d-4e4a-b8ca-4fa03326bd7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d2b3f956-0c1a-4006-8296-5425d2ad6217" testId="9faac161-5f2b-20fe-ec20-9daee7fa75e0" testName="AlwaysTestFromBottomUp" computerName="L00581" duration="00:00:07.4679209" startTime="2011-05-05T15:19:52.6587317-04:00" endTime="2011-05-05T15:20:00.2671425-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2b3f956-0c1a-4006-8296-5425d2ad6217">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ba08fdb-9195-441b-a12f-15f93b64d6fe" testId="e2f4b2ee-0453-7c68-8cd2-0bc6a43cee30" testName="TestGetAllDinnersReturnsAList" computerName="L00581" duration="00:00:00.7623668" startTime="2011-05-05T15:20:00.2771425-04:00" endTime="2011-05-05T15:20:01.0367436-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ba08fdb-9195-441b-a12f-15f93b64d6fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="f9b66814-f19a-402e-8c4e-b5619f579d17" testId="f4b7ca29-55ab-4f68-634e-12a2e1e46e5c" testName="Test_Create" computerName="L00581" duration="00:00:03.8300567" startTime="2011-05-05T15:20:01.0367436-04:00" endTime="2011-05-05T15:20:04.8779492-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9b66814-f19a-402e-8c4e-b5619f579d17">
+    </UnitTestResult>
+    <UnitTestResult executionId="945fc4c6-478d-49bf-814a-f44331d101c6" testId="f38c84ef-e374-9413-ce87-f328cf4a7d2f" testName="Test_Delete" computerName="L00581" duration="00:00:00.2125952" startTime="2011-05-05T15:20:04.8879492-04:00" endTime="2011-05-05T15:20:05.0979495-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="945fc4c6-478d-49bf-814a-f44331d101c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="254e2ea9-df33-4dd5-bdf8-48fa71cadc75" testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" testName="Test_Get_All_Dinners_From_Returns_Non_Empty_List" computerName="L00581" duration="00:00:00.4470922" startTime="2011-05-05T15:20:05.1179495-04:00" endTime="2011-05-05T15:20:05.5779501-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="254e2ea9-df33-4dd5-bdf8-48fa71cadc75">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;5&gt;. </Message>
+          <StackTrace>   at NerdDinnerIntegrationDbTests.DomainTests.Test_Get_All_Dinners_From_Returns_Non_Empty_List() in C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\DomainTests\Integration\NerdDinnerIntegrationDbTests.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="41f40bb3-d25d-4b26-98e8-c206e42ad190" testId="482b4f23-8455-ae6f-2e94-5ba1e9474066" testName="Test_Get_Dinner_By_Id_Returns_Correct_Dinner" computerName="L00581" duration="00:00:00.1357217" startTime="2011-05-05T15:20:05.5879502-04:00" endTime="2011-05-05T15:20:05.7279504-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41f40bb3-d25d-4b26-98e8-c206e42ad190">
+    </UnitTestResult>
+    <UnitTestResult executionId="4bf8985d-9c38-4617-842d-bfe87c6d8dfd" testId="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2" testName="Test_Get_HttpClient" computerName="L00581" duration="00:00:00.0203839" startTime="2011-05-05T15:20:05.7379504-04:00" endTime="2011-05-05T15:20:05.7579504-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bf8985d-9c38-4617-842d-bfe87c6d8dfd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;5&gt;. </Message>
+          <StackTrace>   at NerdDinnerIntegrationDbTests.DomainTests.Test_Get_HttpClient() in C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\DomainTests\Integration\NerdDinnerIntegrationDbTests.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42c6f774-cb81-4cce-a901-5b2ed17dd34a" testId="549227d5-0b05-4720-d5cb-9214b83cb63e" testName="Test_Update_Dinner_And_Get_Dinner" computerName="L00581" duration="00:00:00.0224502" startTime="2011-05-05T15:20:05.7579504-04:00" endTime="2011-05-05T15:20:05.7879504-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42c6f774-cb81-4cce-a901-5b2ed17dd34a">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e63828f-8758-48e9-ab11-009b9cf48a49" testId="8510f579-1456-f94f-409e-bb785ff196af" testName="Test_Get_All_Dinners_Returns_A_List" computerName="L00581" duration="00:00:00.0051272" startTime="2011-05-05T15:20:05.7979504-04:00" endTime="2011-05-05T15:20:05.7979504-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e63828f-8758-48e9-ab11-009b9cf48a49">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6a8a700-d93d-4e4a-b8ca-4fa03326bd7d" testId="99182fba-74fd-a696-6880-e4f71e3e2106" testName="Test_Get_Dinner_ById" computerName="L00581" duration="00:00:00.0059352" startTime="2011-05-05T15:20:05.8179505-04:00" endTime="2011-05-05T15:20:05.8579505-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6a8a700-d93d-4e4a-b8ca-4fa03326bd7d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

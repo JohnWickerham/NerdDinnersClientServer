@@ -1,0 +1,7 @@
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\bin\Debug\NerdDinnersDbContext.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\bin\Debug\NerdDinnersDbContext.pdb
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\bin\Debug\EntityFramework.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\bin\Debug\EntityFramework.xml
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\obj\Debug\NerdDinnersDbContext.dll
+C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\NerdDinnersDbContext\obj\Debug\NerdDinnersDbContext.pdb

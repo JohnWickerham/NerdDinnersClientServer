@@ -1,0 +1,826 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9/d:Controllers/f:HomeControllerTest.cs" caret="0" fromTop="0" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/f:packages.config" caret="432" fromTop="9" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/f:Global.asax.cs" caret="1538" fromTop="32" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:App_Start/f:StructuremapMvc.cs" caret="433" fromTop="12" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:DependencyResolution/f:SmDependencyResolver.cs" caret="0" fromTop="0" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:DependencyResolution/f:IoC.cs" caret="139" fromTop="4" />
+      <File id="9E43AF31-AD30-48F0-B07D-7303B8D80F69/f:INerdDinnerOperations.cs" caret="0" fromTop="0" />
+      <File id="9E43AF31-AD30-48F0-B07D-7303B8D80F69/f:NerdDinnersDb.cs" caret="708" fromTop="24" />
+      <File id="9E43AF31-AD30-48F0-B07D-7303B8D80F69/f:NerdDinnerOperations.cs" caret="424" fromTop="0" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Views/d:Dinner/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Views/d:Dinner/f:_DinnerDetails.cshtml" caret="0" fromTop="0" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:NerdService.cs" caret="0" fromTop="0" />
+      <File id="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9/d:Controllers/f:EndToEndTest.cs" caret="1867" fromTop="31" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Security/f:NerdDinnerSecurity.cs" caret="1237" fromTop="26" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/f:Web.config" caret="2557" fromTop="48" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:Web.config" caret="640" fromTop="19" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:Global.asax.cs" caret="833" fromTop="23" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:INerdService.cs" caret="934" fromTop="19" />
+      <File id="9E43AF31-AD30-48F0-B07D-7303B8D80F69/f:Dinner.cs" caret="0" fromTop="0" />
+      <File id="9E43AF31-AD30-48F0-B07D-7303B8D80F69/f:DBNerdDinnerOperations.cs" caret="1" fromTop="0" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="4226" fromTop="36" />
+      <File id="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9/d:Integration/f:NerdDinnerIntegrationDbTests.cs" caret="1946" fromTop="18" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Services/f:NerdDinnerService.cs" caret="4963" fromTop="36" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="3839" fromTop="6" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:DependencyResolution/f:IoC.cs" caret="569" fromTop="12" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="1641" fromTop="38" />
+      <File id="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9/d:Controllers/f:EndToEndTest.cs" caret="1182" fromTop="31" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:NerdService.cs" caret="1007" fromTop="18" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:NerdService.cs" caret="1041" fromTop="18" />
+      <File id="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9/f:NerdService.cs" caret="1127" fromTop="19" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="2556" fromTop="27" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="2931" fromTop="36" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="9037" fromTop="27" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Security/f:NerdDinnerSecurity.cs" caret="1735" fromTop="36" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Security/f:NerdDinnerSecurity.cs" caret="1459" fromTop="32" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="10722" fromTop="10" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="11345" fromTop="27" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Security/f:NerdDinnerSecurity.cs" caret="2079" fromTop="42" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Controllers/f:DinnerController.cs" caret="10480" fromTop="49" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Services/f:NerdDinnerService.cs" caret="4549" fromTop="10" />
+      <File id="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9/d:Controllers/f:EndToEndTest.cs" caret="1676" fromTop="26" />
+      <File id="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85/d:Services/f:NerdDinnerService.cs" caret="4136" fromTop="45" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="nerdDinnersDb" priority="23" />
+      <Item value="using" priority="12" />
+      <Item value="System" priority="11" />
+      <Item value="CodeDom" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="Entity" priority="0" />
+      <Item value="d" priority="41" />
+      <Item value="select" priority="9" />
+      <Item value="dinners" priority="23" />
+      <Item value="public" priority="39" />
+      <Item value="void" priority="9" />
+      <Item value="stream" priority="4" />
+      <Item value="DataContractSerializer`0" priority="0" />
+      <Item value="contractSerializer" priority="5" />
+      <Item value="new" priority="101" />
+      <Item value="DataContractSerializer" priority="0" />
+      <Item value="typeof" priority="0" />
+      <Item value="ListenUriMode`0" priority="0" />
+      <Item value="Dinner`0" priority="42" />
+      <Item value="response" priority="5" />
+      <Item value="Assert`0" priority="29" />
+      <Item value="TestInitialize" priority="2" />
+      <Item value="OperationContract" priority="3" />
+      <Item value="ctor" priority="0" />
+      <Item value="this" priority="9" />
+      <Item value="false" priority="2" />
+      <Item value="var" priority="149" />
+      <Item value="_baseURI" priority="2" />
+      <Item value="catch" priority="3" />
+      <Item value="client" priority="7" />
+      <Item value="host" priority="12" />
+      <Item value="throw" priority="4" />
+      <Item value="dinnerIdExpected" priority="0" />
+      <Item value="int" priority="29" />
+      <Item value="dinnerId" priority="12" />
+      <Item value="return" priority="61" />
+      <Item value="null" priority="17" />
+      <Item value="content" priority="2" />
+      <Item value="newDinner" priority="8" />
+      <Item value="HttpContentExtensions" priority="2" />
+      <Item value="HttpContent`0" priority="9" />
+      <Item value="HttpRequestMessage`0" priority="1" />
+      <Item value="request" priority="4" />
+      <Item value="stream1" priority="0" />
+      <Item value="Microsoft" priority="3" />
+      <Item value="Net" priority="5" />
+      <Item value="HttpWebRequest`0" priority="1" />
+      <Item value="BaseUri" priority="3" />
+      <Item value="FormUrlEncodedContent`0" priority="0" />
+      <Item value="form" priority="0" />
+      <Item value="StreamContent`0" priority="2" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="Http" priority="2" />
+      <Item value="Headers" priority="0" />
+      <Item value="Net.Http" priority="0" />
+      <Item value="TestMethod" priority="7" />
+      <Item value="DBNerdDinnerOperations`0" priority="1" />
+      <Item value="operations" priority="6" />
+      <Item value="DBNerdDinnerOperations" priority="1" />
+      <Item value="NerdDinnersDb`0" priority="5" />
+      <Item value="NerdDinnersDb" priority="2" />
+      <Item value="from" priority="9" />
+      <Item value="where" priority="4" />
+      <Item value="query" priority="1" />
+      <Item value="_dinners" priority="4" />
+      <Item value="Dinner" priority="11" />
+      <Item value="DinnerId" priority="7" />
+      <Item value="expected" priority="0" />
+      <Item value="actual" priority="0" />
+      <Item value="_operations" priority="2" />
+      <Item value="WebFaultException" priority="1" />
+      <Item value="HttpStatusCode`0" priority="1" />
+      <Item value="WebException" priority="0" />
+      <Item value="Exception`0" priority="2" />
+      <Item value="if" priority="39" />
+      <Item value="context" priority="6" />
+      <Item value="HttpClient`0" priority="2" />
+      <Item value="dinnerToDelete" priority="1" />
+      <Item value="Continue" priority="0" />
+      <Item value="dinner" priority="43" />
+      <Item value="finally" priority="0" />
+      <Item value="private" priority="9" />
+      <Item value="static" priority="8" />
+      <Item value="class" priority="2" />
+      <Item value="DropCreateDatabaseAlways" priority="2" />
+      <Item value="NerdDinnerDomain" priority="13" />
+      <Item value="GetSingleDinnerFromResponse`0" priority="2" />
+      <Item value="dinnerReturned" priority="4" />
+      <Item value="dinnerToUpdate" priority="2" />
+      <Item value="titleTextExpected" priority="0" />
+      <Item value="DbContext`0" priority="3" />
+      <Item value="object" priority="10" />
+      <Item value="base" priority="1" />
+      <Item value="entity" priority="1" />
+      <Item value="ChangeTracker" priority="1" />
+      <Item value="Database" priority="0" />
+      <Item value="else" priority="9" />
+      <Item value="dinnerToGet" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="HttpResponse`0" priority="1" />
+      <Item value="ModelState" priority="0" />
+      <Item value="List" priority="11" />
+      <Item value="decimal" priority="0" />
+      <Item value="NerdDinners" priority="5" />
+      <Item value="Address" priority="3" />
+      <Item value="Country" priority="3" />
+      <Item value="EventDate" priority="4" />
+      <Item value="DateTime`0" priority="12" />
+      <Item value="Title" priority="6" />
+      <Item value="ViewBag" priority="7" />
+      <Item value="Runtime" priority="0" />
+      <Item value="Serialization" priority="1" />
+      <Item value="id" priority="2" />
+      <Item value="HostedBy" priority="1" />
+      <Item value="View`0" priority="11" />
+      <Item value="ActionResult`0" priority="11" />
+      <Item value="PartialView`0" priority="2" />
+      <Item value="PartialViewResult`0" priority="3" />
+      <Item value="Display" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="IFilterProvider`0" priority="0" />
+      <Item value="responseGet" priority="3" />
+      <Item value="ValidationAttribute`0" priority="0" />
+      <Item value="INerdDataProvider`0" priority="1" />
+      <Item value="DinnerController`0" priority="9" />
+      <Item value="_privider" priority="0" />
+      <Item value="provider" priority="0" />
+      <Item value="_dataPrivider" priority="3" />
+      <Item value="NerdService" priority="0" />
+      <Item value="Void`0" priority="0" />
+      <Item value="NerdDinnerService`0" priority="0" />
+      <Item value="INerdDinnerService`0" priority="4" />
+      <Item value="_nerdDinnerService" priority="1" />
+      <Item value="NerdService`0" priority="0" />
+      <Item value="INerdDinnerOperations`0" priority="0" />
+      <Item value="Web" priority="6" />
+      <Item value="Routing" priority="0" />
+      <Item value="Moq" priority="6" />
+      <Item value="Mock`0" priority="6" />
+      <Item value="moqService" priority="11" />
+      <Item value="ModelClientValidationEqualToRule`0" priority="0" />
+      <Item value="List&lt;Dinner&gt;" priority="4" />
+      <Item value="mockDinner" priority="2" />
+      <Item value="mockDinners" priority="0" />
+      <Item value="a" priority="18" />
+      <Item value="result" priority="25" />
+      <Item value="as" priority="10" />
+      <Item value="ViewResult`0" priority="3" />
+      <Item value="controller" priority="6" />
+      <Item value="changedDinner" priority="4" />
+      <Item value="Controller`0" priority="4" />
+      <Item value="ResultExecutedContext`0" priority="1" />
+      <Item value="viewResult" priority="1" />
+      <Item value="MvcApplication`0" priority="3" />
+      <Item value="App_Start" priority="0" />
+      <Item value="_application" priority="2" />
+      <Item value="container" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="GetService`0" priority="0" />
+      <Item value="service" priority="0" />
+      <Item value="countOfDinnersBeforeCreate" priority="0" />
+      <Item value="RedirectToRouteResult`0" priority="5" />
+      <Item value="ObjectFactory`0" priority="1" />
+      <Item value="action" priority="0" />
+      <Item value="enum" priority="1" />
+      <Item value="string" priority="74" />
+      <Item value="char" priority="2" />
+      <Item value="String`0" priority="0" />
+      <Item value="MvcHtmlString" priority="0" />
+      <Item value="caption" priority="1" />
+      <Item value="HtmlHelper`0" priority="0" />
+      <Item value="TagBuilder`0" priority="0" />
+      <Item value="builder" priority="3" />
+      <Item value="htmlAttributes" priority="0" />
+      <Item value="MvcHtmlString`0" priority="0" />
+      <Item value="RedirectToAction`0" priority="2" />
+      <Item value="RedirectToRoute`0" priority="0" />
+      <Item value="WebServiceHost`0" priority="2" />
+      <Item value="p" priority="0" />
+      <Item value="IActionFilter`0" priority="0" />
+      <Item value="Mvc" priority="1" />
+      <Item value="ActionFilterAttribute`0" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="filterContext" priority="7" />
+      <Item value="RedirectResult`0" priority="2" />
+      <Item value="url" priority="0" />
+      <Item value="UrlHelper`0" priority="0" />
+      <Item value="RouteValueDictionary" priority="1" />
+      <Item value="RouteTable`0" priority="0" />
+      <Item value="ServiceRoute`0" priority="0" />
+      <Item value="RouteBase`0" priority="0" />
+      <Item value="routes" priority="0" />
+      <Item value="Authorize" priority="3" />
+      <Item value="Filters" priority="0" />
+      <Item value="Authenticated" priority="0" />
+      <Item value="Filter`0" priority="1" />
+      <Item value="FormCollection`0" priority="0" />
+      <Item value="CreatedBy" priority="0" />
+      <Item value="Database`0" priority="1" />
+      <Item value="User" priority="7" />
+      <Item value="expectedDinner" priority="1" />
+      <Item value="true" priority="4" />
+      <Item value="JsonResult`0" priority="0" />
+      <Item value="Json`0" priority="4" />
+      <Item value="Script" priority="0" />
+      <Item value="JavaScriptSerializer`0" priority="0" />
+      <Item value="oSerializer" priority="1" />
+      <Item value="sJson" priority="0" />
+      <Item value="listOfDinners" priority="5" />
+      <Item value="AllowGet" priority="2" />
+      <Item value="query_variables" priority="0" />
+      <Item value="ClickMe`0" priority="0" />
+      <Item value="ToArray`1" priority="0" />
+      <Item value="sEchoParam" priority="3" />
+      <Item value="Convert`0" priority="3" />
+      <Item value="returnResult" priority="0" />
+      <Item value="param" priority="10" />
+      <Item value="for" priority="1" />
+      <Item value="ii" priority="4" />
+      <Item value="dinnerTemplate" priority="3" />
+      <Item value="Random`0" priority="2" />
+      <Item value="addresses" priority="0" />
+      <Item value="rand" priority="2" />
+      <Item value="RandomString`0" priority="0" />
+      <Item value="Array`0" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="dates" priority="1" />
+      <Item value="DropCreateDatabaseIfModelChanges" priority="0" />
+      <Item value="Enumerable`0" priority="0" />
+      <Item value="dinnersToReturn" priority="2" />
+      <Item value="sSearch" priority="0" />
+      <Item value="filteredDinners" priority="4" />
+      <Item value="Queryable`0" priority="0" />
+      <Item value="Request" priority="1" />
+      <Item value="Func" priority="0" />
+      <Item value="sortColumnIndex" priority="4" />
+      <Item value="sortDirection" priority="0" />
+      <Item value="orderingFunction" priority="2" />
+      <Item value="ICollection" priority="2" />
+      <Item value="RSVP`0" priority="13" />
+      <Item value="RSVP" priority="1" />
+      <Item value="AttendeeEmail" priority="4" />
+      <Item value="SeedForTesting`0" priority="0" />
+      <Item value="GetRsvps`0" priority="1" />
+      <Item value="rsvps" priority="3" />
+      <Item value="r" priority="3" />
+      <Item value="CreatedBy`0" priority="0" />
+      <Item value="st" priority="0" />
+      <Item value="try" priority="4" />
+      <Item value="WebGet" priority="2" />
+      <Item value="UriTemplate" priority="2" />
+      <Item value="Serializable" priority="0" />
+      <Item value="AppDomainSetup`0" priority="0" />
+      <Item value="DinnerSet`0" priority="7" />
+      <Item value="dinnerSet" priority="7" />
+      <Item value="skip" priority="0" />
+      <Item value="take" priority="0" />
+      <Item value="start" priority="10" />
+      <Item value="count" priority="10" />
+      <Item value="Dinners" priority="1" />
+      <Item value="DisplayDinnerCount" priority="0" />
+      <Item value="TotalDinnerCount" priority="1" />
+      <Item value="NotFiniteNumberException" priority="0" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="SortType`0" priority="5" />
+      <Item value="None" priority="1" />
+      <Item value="filter" priority="21" />
+      <Item value="filteredDinnerQuery" priority="2" />
+      <Item value="FilteredDinnerCount" priority="0" />
+      <Item value="filteredDinnerCount" priority="0" />
+      <Item value="totalDinnerCount" priority="0" />
+      <Item value="sortOption" priority="4" />
+      <Item value="orderdDinners" priority="0" />
+      <Item value="sortedDinners" priority="3" />
+      <Item value="orderby" priority="0" />
+      <Item value="sortColumn" priority="18" />
+      <Item value="ascending" priority="0" />
+      <Item value="sSortOption" priority="0" />
+      <Item value="sortType" priority="14" />
+      <Item value="sSortType" priority="1" />
+      <Item value="Select`2" priority="1" />
+      <Item value="properties" priority="0" />
+      <Item value="method" priority="0" />
+      <Item value="GetDinnerSetFromResponse`0" priority="0" />
+      <Item value="asrt" priority="3" />
+      <Item value="GetFilteredDinners`0" priority="2" />
+      <Item value="GetSortedDinners`0" priority="0" />
+      <Item value="StringComparison`0" priority="1" />
+      <Item value="WebOperationContext`0" priority="1" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="DefaultRequestHeaders" priority="1" />
+      <Item value="HttpRequestHeaders" priority="1" />
+      <Item value="NetworkCredential`0" priority="0" />
+      <Item value="authString" priority="2" />
+      <Item value="HttpCacheVaryByContentEncodings`0" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="ForeignKey" priority="1" />
+      <Item value="FileStyleUriParser`0" priority="0" />
+      <Item value="RSVPSet`0" priority="2" />
+      <Item value="filteredCount" priority="1" />
+      <Item value="RSVPs" priority="1" />
+      <Item value="FilteredRSVPCount" priority="1" />
+      <Item value="TotalRSVPCount" priority="1" />
+      <Item value="RsvpId" priority="0" />
+      <Item value="PopulateRSVPs`0" priority="0" />
+      <Item value="_rsvps" priority="3" />
+      <Item value="toReturn" priority="0" />
+      <Item value="totalCount" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="GetRsvpSetFromResponse`0" priority="0" />
+      <Item value="rsvpSet" priority="7" />
+      <Item value="Rsvp`0" priority="18" />
+      <Item value="DinnerClientModel`0" priority="2" />
+      <Item value="DinnerClientModel" priority="0" />
+      <Item value="rsvpQuery" priority="0" />
+      <Item value="RsvpSet`0" priority="4" />
+      <Item value="routeValues" priority="0" />
+      <Item value="rsvp" priority="6" />
+      <Item value="CreateRoles`0" priority="1" />
+      <Item value="Roles`0" priority="5" />
+      <Item value="Constants`0" priority="1" />
+      <Item value="Security" priority="2" />
+      <Item value="MembershipUserCollection" priority="0" />
+      <Item value="MembershipUser" priority="0" />
+      <Item value="Principal" priority="0" />
+      <Item value="IPrincipal`0" priority="0" />
+      <Item value="ContextBoundObject`0" priority="0" />
+      <Item value="HttpContext`0" priority="2" />
+      <Item value="Administrator" priority="0" />
+      <Item value="DinnerCreator" priority="0" />
+      <Item value="DinnerAttender" priority="0" />
+      <Item value="Membership`0" priority="2" />
+      <Item value="model" priority="0" />
+      <Item value="NerdDinnerSecurity`0" priority="3" />
+      <Item value="AttendButtonText`0" priority="0" />
+      <Item value="responseGetSpecific" priority="0" />
+      <Item value="NerdDinnerService" priority="0" />
+      <Item value="CanEditDinner`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.NerdDinnersDb">
+      <Item value="Dinners" priority="12" />
+      <Item value="Configuration" priority="1" />
+      <Item value="SaveChanges`0" priority="3" />
+      <Item value="ChangeTracker" priority="0" />
+      <Item value="RSVPs" priority="5" />
+      <Item value="Database" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbSet`1">
+      <Item value="Include`0" priority="0" />
+      <Item value="Add`0" priority="3" />
+      <Item value="Attach`0" priority="0" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.Dinner">
+      <Item value="RSVPs" priority="3" />
+      <Item value="ToContentUsingDataContractSerializer`0" priority="0" />
+      <Item value="DinnerId" priority="32" />
+      <Item value="Title" priority="6" />
+      <Item value="EventDate" priority="8" />
+      <Item value="CreatedBy" priority="10" />
+      <Item value="Address" priority="8" />
+      <Item value="Country" priority="5" />
+      <Item value="HostedBy" priority="2" />
+      <Item value="RsvpCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.DataContractSerializer">
+      <Item value="WriteObject`0" priority="4" />
+      <Item value="ReadObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Http.HttpResponseMessage">
+      <Item value="Content" priority="0" />
+      <Item value="StatusCode" priority="0" />
+      <Item value="IsSuccessStatusCode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Http.HttpContent">
+      <Item value="ContentReadStream" priority="0" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Headers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="19" />
+      <Item value="Fail`0" priority="0" />
+      <Item value="IsTrue`0" priority="10" />
+      <Item value="AreNotEqual`0" priority="0" />
+      <Item value="IsNotNull`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="10" />
+      <Item value="Where`1" priority="2" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="AsEnumerable`1" priority="1" />
+      <Item value="AsReadOnly`0" priority="1" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Skip`1" priority="0" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="OrderBy`2" priority="0" />
+      <Item value="SelectMany`3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbContextConfiguration">
+      <Item value="ProxyCreationEnabled" priority="0" />
+      <Item value="AutoDetectChangesEnabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.Web.WebServiceHost">
+      <Item value="Close`0" priority="3" />
+      <Item value="Abort`0" priority="1" />
+      <Item value="SafeDispose`0" priority="0" />
+      <Item value="Open`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Http.HttpClient">
+      <Item value="Post`0" priority="0" />
+      <Item value="Put`0" priority="0" />
+      <Item value="Delete`0" priority="1" />
+      <Item value="DefaultRequestHeaders" priority="0" />
+      <Item value="Get`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Http.HttpRequestMessage">
+      <Item value="Content" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.HttpWebRequest">
+      <Item value="Create`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Flush`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.DBNerdDinnerOperations">
+      <Item value="CreateDinner`0" priority="0" />
+      <Item value="GetDinners`0" priority="0" />
+      <Item value="GetFilteredRSVPs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="Equals`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="Count`1" priority="1" />
+      <Item value="OrderBy`2" priority="0" />
+      <Item value="Skip`1" priority="0" />
+      <Item value="Take`1" priority="0" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="OrderByDescending`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Count`1" priority="2" />
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="Skip`1" priority="0" />
+      <Item value="Take`1" priority="1" />
+      <Item value="OfType`1" priority="0" />
+      <Item value="ToList`1" priority="5" />
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.INerdDinnerOperations">
+      <Item value="GetDinner`0" priority="1" />
+      <Item value="GetDinners`0" priority="0" />
+      <Item value="GetFilteredDinners`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="1" />
+      <Item value="Equals`0" priority="2" />
+      <Item value="DefaultIfEmpty`1" priority="0" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="ToLower`0" priority="5" />
+      <Item value="Split`0" priority="0" />
+      <Item value="ToCharArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.HttpStatusCode">
+      <Item value="InternalServerError" priority="1" />
+      <Item value="OK" priority="0" />
+      <Item value="NotFound" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbContext">
+      <Item value="ChangeTracker" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.Infrastructure.DbChangeTracker">
+      <Item value="DetectChanges`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="IsClientConnected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="5" />
+      <Item value="Parse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Controllers.INerdDataProvider">
+      <Item value="GetDinners`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Controllers.INerdService">
+      <Item value="GetDinner`0" priority="0" />
+      <Item value="CreateDinner`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="7" />
+      <Item value="SetupGet`1" priority="5" />
+      <Item value="SetupProperty`1" priority="1" />
+      <Item value="Setup`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Services.INerdDinnerService">
+      <Item value="GetDinners`0" priority="3" />
+      <Item value="GetDinner`0" priority="3" />
+      <Item value="CreateDinner`0" priority="0" />
+      <Item value="UpdateDinner`0" priority="0" />
+      <Item value="DeleteDinner`0" priority="0" />
+      <Item value="GetFilteredDinners`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetupGetter`2">
+      <Item value="Returns`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewResult">
+      <Item value="ViewBag" priority="1" />
+      <Item value="ViewData" priority="1" />
+      <Item value="Model" priority="3" />
+      <Item value="ViewName" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Controllers.DinnerController">
+      <Item value="Edit`0" priority="2" />
+      <Item value="Create`0" priority="0" />
+      <Item value="Delete`0" priority="0" />
+      <Item value="Detail`0" priority="0" />
+      <Item value="Index`0" priority="0" />
+      <Item value="User" priority="0" />
+      <Item value="_nerdDinnerService" priority="1" />
+      <Item value="ViewBag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ActionResult">
+      <Item value="ExecuteResult`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.PartialViewResult">
+      <Item value="ViewName" priority="0" />
+      <Item value="Model" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IContainer">
+      <Item value="GetInstance`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@StructureMap.ObjectFactory">
+      <Item value="GetInstance`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.RedirectToRouteResult">
+      <Item value="RouteValues" priority="3" />
+      <Item value="ExecuteResult`0" priority="1" />
+      <Item value="Permanent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteValueDictionary">
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Copy`0" priority="0" />
+      <Item value="Format`0" priority="1" />
+      <Item value="IsNullOrEmpty`0" priority="15" />
+      <Item value="Empty" priority="24" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.TagBuilder">
+      <Item value="MergeAttribute`0" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="GenerateId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="User" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="12" />
+      <Item value="IsInRole`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="IsAuthenticated" priority="4" />
+      <Item value="Name" priority="5" />
+      <Item value="nguid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="User" priority="2" />
+      <Item value="Response" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ActionExecutingContext">
+      <Item value="HttpContext" priority="0" />
+      <Item value="Controller" priority="0" />
+      <Item value="Result" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ControllerBase">
+      <Item value="ControllerContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Routing.RouteTable">
+      <Item value="Routes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="MapRoute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Script.Serialization.JavaScriptSerializer">
+      <Item value="Serialize`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="JsonDinnerTitle" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="UserButtonVisibility" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.JsonRequestBehavior">
+      <Item value="AllowGet" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="1" />
+      <Item value="ToShortDateString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Controllers.JSonTestController">
+      <Item value="HttpContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToString`0" priority="1" />
+      <Item value="ToInt32`0" priority="0" />
+      <Item value="ToBase64String`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Controllers.DinnerController+jQueryDataTableParamModel">
+      <Item value="sEcho" priority="0" />
+      <Item value="sSearch" priority="2" />
+      <Item value="iDisplayStart" priority="1" />
+      <Item value="iDisplayLength" priority="2" />
+      <Item value="sColumns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="0" />
+      <Item value="HasValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.DinnerSet">
+      <Item value="Dinners" priority="7" />
+      <Item value="TotalDinnerCount" priority="1" />
+      <Item value="FilteredDinnerCount" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Count" priority="2" />
+      <Item value="Select`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NerdDinnerDomain.SortType">
+      <Item value="None" priority="1" />
+      <Item value="Up" priority="0" />
+      <Item value="Asc" priority="1" />
+      <Item value="Desc" priority="0" />
+      <Item value="TryParse`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetProperties`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparison">
+      <Item value="OrdinalIgnoreCase" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.Web.WebOperationContext">
+      <Item value="Current" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.Web.WebOperationContext">
+      <Item value="IncomingRequest" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.Web.IncomingWebRequestContext">
+      <Item value="Headers" priority="0" />
+      <Item value="UriTemplateMatch" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Http.Headers.HttpRequestHeaders">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.UriTemplateMatch">
+      <Item value="QueryParameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.RSVP">
+      <Item value="AttendeeEmail" priority="1" />
+      <Item value="DinnerId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.RSVPSet">
+      <Item value="FilteredRSVPCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.RsvpSet">
+      <Item value="TotalRsvpCount" priority="1" />
+      <Item value="FilteredRsvpCount" priority="1" />
+      <Item value="RsvPs" priority="0" />
+      <Item value="Rsvps" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Services.DinnerClientModel">
+      <Item value="Dinner" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinnerDomain.Rsvp">
+      <Item value="DinnerId" priority="1" />
+      <Item value="AttendeeEmail" priority="0" />
+      <Item value="RsvpId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.MvcApplication">
+      <Item value="CreateRoles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Roles">
+      <Item value="CreateRole`0" priority="0" />
+      <Item value="RoleExists`0" priority="0" />
+      <Item value="AddUsersToRole`0" priority="0" />
+      <Item value="IsUserInRole`0" priority="0" />
+      <Item value="AddUserToRole`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NerdDinners.Constants">
+      <Item value="Administrator" priority="1" />
+      <Item value="DinnerCreator" priority="0" />
+      <Item value="DinnerATtender" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="GetUser`0" priority="1" />
+      <Item value="CreateUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NerdDinners.Models.RegisterModel">
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NerdDinners.NerdDinnerSecurity">
+      <Item value="DinnerAttender" priority="0" />
+      <Item value="CanAttendDinner`0" priority="0" />
+      <Item value="CurrentUserEmail`0" priority="0" />
+      <Item value="CanEditDinner`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Pipeline.SmartInstance`1">
+      <Item value="Ctor`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

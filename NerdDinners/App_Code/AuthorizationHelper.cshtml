@@ -1,0 +1,15 @@
+﻿@helper CreateButton(string linkText, string actionName, string controllerName)
+{
+    if (NerdDinners.NerdDinnerSecurity.CanCreateDinner())
+    {
+        <a href=/@controllerName/@actionName>@linkText</a>
+    }
+}
+
+@helper CreateButton(string linkText, string actionName, string controllerName, object routeValues, object htmlAttributes)
+{
+    if (NerdDinners.NerdDinnerSecurity.CanCreateDinner())
+    {
+        <a href=/@controllerName/@actionName?@routeValues>@linkText</a>
+    }
+}

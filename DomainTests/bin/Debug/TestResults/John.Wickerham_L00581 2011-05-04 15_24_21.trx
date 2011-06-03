@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6bef62d7-f601-4d0b-bd1d-7e8d32a25cda" name="John.Wickerham@L00581 2011-05-04 15:24:21" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-04 15_24_21" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-04T15:24:21.7704139-04:00" queuing="2011-05-04T15:24:22.3944150-04:00" start="2011-05-04T15:24:22.9404160-04:00" finish="2011-05-04T15:24:35.4204379-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f0a40a78-66e3-1238-1044-0c33ed177fc3">
+      <Execution timeOut="1800000" id="97c52825-c6a2-47c4-aa83-bf1bf0e0ea1d" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" executionId="97c52825-c6a2-47c4-aa83-bf1bf0e0ea1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97c52825-c6a2-47c4-aa83-bf1bf0e0ea1d" testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" testName="Test_Get_All_Dinners_From_Returns_Non_Empty_List" computerName="L00581" duration="00:00:10.7612692" startTime="2011-05-04T15:24:24.3756185-04:00" endTime="2011-05-04T15:24:35.2488376-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97c52825-c6a2-47c4-aa83-bf1bf0e0ea1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method NerdDinnerIntegrationDbTests.DomainTests.Test_Get_All_Dinners_From_Returns_Non_Empty_List threw exception: 
+System.ServiceModel.CommunicationException: An error occurred while receiving the HTTP response to http://localhost:3603/NerdService/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details. ---&gt; System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---&gt; System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---&gt; System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+ --- End of inner exception stack trace ---
+    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+ --- End of inner exception stack trace ---
+    at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at RestfulNerds.INerdService.Get()
+   at NerdDinnerIntegrationDbTests.DomainTests.Test_Get_All_Dinners_From_Returns_Non_Empty_List() in C:\Users\john.wickerham\Documents\Visual Studio 2010\Projects\NerdDinners - Client Server\NerdDinners\DomainTests\Integration\NerdDinnerIntegrationDbTests.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0205288f-6e79-4004-bd4b-7afd2094ffcb" name="John.Wickerham@L00581 2011-05-04 15:57:02" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ff3ea93d-31d3-4842-b744-ccb844642c33">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John.Wickerham_L00581 2011-05-04 15_57_02" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-04T15:57:02.6598595-04:00" queuing="2011-05-04T15:57:03.0498602-04:00" start="2011-05-04T15:57:03.3462607-04:00" finish="2011-05-04T15:57:11.3022747-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_HttpClient" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2">
+      <Execution timeOut="1800000" id="8351bae9-3cbf-4b6f-9c86-8eebe515d46a" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_HttpClient" />
+    </UnitTest>
+    <UnitTest name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\domaintests\bin\debug\domaintests.dll" id="f0a40a78-66e3-1238-1044-0c33ed177fc3">
+      <Execution timeOut="1800000" id="c1ecced8-518f-437f-a75c-e593dbb0e80b" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/DomainTests/bin/Debug/DomainTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, DomainTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_All_Dinners_From_Returns_Non_Empty_List" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" executionId="c1ecced8-518f-437f-a75c-e593dbb0e80b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2" executionId="8351bae9-3cbf-4b6f-9c86-8eebe515d46a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c1ecced8-518f-437f-a75c-e593dbb0e80b" testId="f0a40a78-66e3-1238-1044-0c33ed177fc3" testName="Test_Get_All_Dinners_From_Returns_Non_Empty_List" computerName="L00581" duration="00:00:07.4394118" startTime="2011-05-04T15:57:03.5490611-04:00" endTime="2011-05-04T15:57:11.0682743-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1ecced8-518f-437f-a75c-e593dbb0e80b">
+    </UnitTestResult>
+    <UnitTestResult executionId="8351bae9-3cbf-4b6f-9c86-8eebe515d46a" testId="b4ed87ba-d2c7-5798-ae9a-b74cd47433e2" testName="Test_Get_HttpClient" computerName="L00581" duration="00:00:00.1537432" startTime="2011-05-04T15:57:11.0682743-04:00" endTime="2011-05-04T15:57:11.2242746-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8351bae9-3cbf-4b6f-9c86-8eebe515d46a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

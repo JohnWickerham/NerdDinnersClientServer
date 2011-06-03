@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="ACF3B4C9-C0E1-48CB-BCDB-7904AC463C85" ModuleId="NerdDinners" />
+  <Module PersistentId="9E43AF31-AD30-48F0-B07D-7303B8D80F69" ModuleId="NerdDinnerDomain" />
+  <Module PersistentId="6602AC09-4E15-4D61-B2F1-32F3BBDB29D9" ModuleId="NerdDinners.Tests" />
+  <Module PersistentId="2ADCEE53-0D84-4A8B-AE8B-66E38EC289E9" ModuleId="RestfulNerds" />
+  <Module PersistentId="163205F0-BC87-4A6B-94F8-77DDAF756E39" ModuleId="NerdDinnerTests" />
+  <Module PersistentId="System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Runtime.Serialization" />
+</Modules>

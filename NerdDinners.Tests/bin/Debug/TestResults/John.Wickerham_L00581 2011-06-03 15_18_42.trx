@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7604adc0-ecd7-46ef-8dec-9e19c7664b71" name="John.Wickerham@L00581 2011-06-03 15:18:42" runUser="APPLIEDIS\John.Wickerham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b0d882f1-55e3-4dfc-8a92-9b28a4f95ad2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="John.Wickerham_L00581 2011-06-03 15_18_42" />
+  </TestSettings>
+  <Times creation="2011-06-03T15:18:42.2651534-04:00" queuing="2011-06-03T15:18:43.7051554-04:00" start="2011-06-03T15:18:44.5151566-04:00" finish="2011-06-03T15:19:16.5552014-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_Get_Filtered_Dinners_2_For_3_Without_Filter_Succeeds" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="8e13220e-1777-c64b-fde2-5d2e4e3fa683">
+      <Execution timeOut="1800000" id="dc3b50db-d531-4452-b736-eed8d0ade800" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Filtered_Dinners_2_For_3_Without_Filter_Succeeds" />
+    </UnitTest>
+    <UnitTest name="Test_Create_Succeeds_With_Valid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="ef54deec-8964-0b6d-a84a-2042a7e691ec">
+      <Execution timeOut="1800000" id="e283b166-2b77-4114-9b6e-7486996e330a" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Create_Succeeds_With_Valid_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Delete_Of_Existing_Dinner_Succeeds" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="85b475e9-a152-03bd-a382-154f09b574c4">
+      <Execution timeOut="1800000" id="9d9383d6-eacc-40c4-a97e-a6e2cf43c34e" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Delete_Of_Existing_Dinner_Succeeds" />
+    </UnitTest>
+    <UnitTest name="Test_Delete_Of_Non_Existing_Dinner_Fails" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="30499467-0b84-9463-6acf-34bd59bda997">
+      <Execution timeOut="1800000" id="78f15702-c27b-4798-8e98-224100ac19b9" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Delete_Of_Non_Existing_Dinner_Fails" />
+    </UnitTest>
+    <UnitTest name="Test_Create_Succeeds_With_Valid_Rsvp" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="1bfc4c21-bfc8-fe9b-60b8-2a5ba0160331">
+      <Execution timeOut="1800000" id="890f716e-c78b-4e69-bdf3-85f4a8c95912" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Create_Succeeds_With_Valid_Rsvp" />
+    </UnitTest>
+    <UnitTest name="Test_Update_Fails_With_Invalid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="e55535a1-504b-28ee-3a5b-a4f8d3d18276">
+      <Execution timeOut="1800000" id="2c4d4d54-88f3-4e5d-b85a-d9f2eb3c782a" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Update_Fails_With_Invalid_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Dinner_Fails_For_Invalid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="5f03241e-a4ff-a682-ce12-02c965b7f319">
+      <Execution timeOut="1800000" id="1b675d33-6e7e-4f46-9291-1032163bc037" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Dinner_Fails_For_Invalid_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Dinner_Succeeds_For_Valid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="0781d661-9996-9a86-ee7c-8eeb65062566">
+      <Execution timeOut="1800000" id="fe3cfc83-e61d-4021-bf62-d5d00829fca3" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Dinner_Succeeds_For_Valid_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Filtered_Dinners_2_For_3_With_Filter_Succeeds" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="cc5eb72a-b516-567b-7330-dd268199d6eb">
+      <Execution timeOut="1800000" id="98996708-ca5b-4e5f-9d18-13aafecc4e33" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Filtered_Dinners_2_For_3_With_Filter_Succeeds" />
+    </UnitTest>
+    <UnitTest name="Test_Get_Filtered_RSVPs_First_10_Succeeds" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="6562fe35-171c-265c-c660-f286d267b4fd">
+      <Execution timeOut="1800000" id="4c5149a2-b4ac-4a15-9a72-79bafc0a8f5b" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Get_Filtered_RSVPs_First_10_Succeeds" />
+    </UnitTest>
+    <UnitTest name="Test_Update_Succeeds_With_Valid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="e1965ec5-a929-3293-ce17-a60ffdd31721">
+      <Execution timeOut="1800000" id="cb73e693-92f3-48e7-bf3e-10d32f5efc10" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Update_Succeeds_With_Valid_Dinner" />
+    </UnitTest>
+    <UnitTest name="Test_Create_Fails_With_Invalid_Dinner" storage="c:\users\john.wickerham\documents\visual studio 2010\projects\nerddinners - client server\nerddinners\nerddinners.tests\bin\debug\nerddinners.tests.dll" id="2b0987a8-7e9b-6b57-b107-a12e17eae77c">
+      <Execution timeOut="1800000" id="b4666dde-92c2-4e64-aaa9-8d7f42cfd10f" />
+      <TestMethod codeBase="C:/Users/john.wickerham/Documents/Visual Studio 2010/Projects/NerdDinners - Client Server/NerdDinners/NerdDinners.Tests/bin/Debug/NerdDinners.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinnerIntegrationDbTests.DomainTests, NerdDinners.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_Create_Fails_With_Invalid_Dinner" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2b0987a8-7e9b-6b57-b107-a12e17eae77c" executionId="b4666dde-92c2-4e64-aaa9-8d7f42cfd10f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef54deec-8964-0b6d-a84a-2042a7e691ec" executionId="e283b166-2b77-4114-9b6e-7486996e330a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bfc4c21-bfc8-fe9b-60b8-2a5ba0160331" executionId="890f716e-c78b-4e69-bdf3-85f4a8c95912" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85b475e9-a152-03bd-a382-154f09b574c4" executionId="9d9383d6-eacc-40c4-a97e-a6e2cf43c34e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30499467-0b84-9463-6acf-34bd59bda997" executionId="78f15702-c27b-4798-8e98-224100ac19b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f03241e-a4ff-a682-ce12-02c965b7f319" executionId="1b675d33-6e7e-4f46-9291-1032163bc037" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0781d661-9996-9a86-ee7c-8eeb65062566" executionId="fe3cfc83-e61d-4021-bf62-d5d00829fca3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc5eb72a-b516-567b-7330-dd268199d6eb" executionId="98996708-ca5b-4e5f-9d18-13aafecc4e33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e13220e-1777-c64b-fde2-5d2e4e3fa683" executionId="dc3b50db-d531-4452-b736-eed8d0ade800" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6562fe35-171c-265c-c660-f286d267b4fd" executionId="4c5149a2-b4ac-4a15-9a72-79bafc0a8f5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e55535a1-504b-28ee-3a5b-a4f8d3d18276" executionId="2c4d4d54-88f3-4e5d-b85a-d9f2eb3c782a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1965ec5-a929-3293-ce17-a60ffdd31721" executionId="cb73e693-92f3-48e7-bf3e-10d32f5efc10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b4666dde-92c2-4e64-aaa9-8d7f42cfd10f" testId="2b0987a8-7e9b-6b57-b107-a12e17eae77c" testName="Test_Create_Fails_With_Invalid_Dinner" computerName="L00581" duration="00:00:29.5566924" startTime="2011-06-03T15:18:44.7751569-04:00" endTime="2011-06-03T15:19:14.5151986-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4666dde-92c2-4e64-aaa9-8d7f42cfd10f">
+    </UnitTestResult>
+    <UnitTestResult executionId="e283b166-2b77-4114-9b6e-7486996e330a" testId="ef54deec-8964-0b6d-a84a-2042a7e691ec" testName="Test_Create_Succeeds_With_Valid_Dinner" computerName="L00581" duration="00:00:00.1175592" startTime="2011-06-03T15:19:14.5251986-04:00" endTime="2011-06-03T15:19:14.6451987-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e283b166-2b77-4114-9b6e-7486996e330a">
+    </UnitTestResult>
+    <UnitTestResult executionId="890f716e-c78b-4e69-bdf3-85f4a8c95912" testId="1bfc4c21-bfc8-fe9b-60b8-2a5ba0160331" testName="Test_Create_Succeeds_With_Valid_Rsvp" computerName="L00581" duration="00:00:00.0601212" startTime="2011-06-03T15:19:14.6451987-04:00" endTime="2011-06-03T15:19:14.7051988-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="890f716e-c78b-4e69-bdf3-85f4a8c95912">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d9383d6-eacc-40c4-a97e-a6e2cf43c34e" testId="85b475e9-a152-03bd-a382-154f09b574c4" testName="Test_Delete_Of_Existing_Dinner_Succeeds" computerName="L00581" duration="00:00:01.0937583" startTime="2011-06-03T15:19:14.7151988-04:00" endTime="2011-06-03T15:19:15.8052004-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d9383d6-eacc-40c4-a97e-a6e2cf43c34e">
+    </UnitTestResult>
+    <UnitTestResult executionId="78f15702-c27b-4798-8e98-224100ac19b9" testId="30499467-0b84-9463-6acf-34bd59bda997" testName="Test_Delete_Of_Non_Existing_Dinner_Fails" computerName="L00581" duration="00:00:00.0499712" startTime="2011-06-03T15:19:15.8152004-04:00" endTime="2011-06-03T15:19:15.8652004-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f15702-c27b-4798-8e98-224100ac19b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b675d33-6e7e-4f46-9291-1032163bc037" testId="5f03241e-a4ff-a682-ce12-02c965b7f319" testName="Test_Get_Dinner_Fails_For_Invalid_Dinner" computerName="L00581" duration="00:00:00.0205716" startTime="2011-06-03T15:19:15.8652004-04:00" endTime="2011-06-03T15:19:15.8952005-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b675d33-6e7e-4f46-9291-1032163bc037">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe3cfc83-e61d-4021-bf62-d5d00829fca3" testId="0781d661-9996-9a86-ee7c-8eeb65062566" testName="Test_Get_Dinner_Succeeds_For_Valid_Dinner" computerName="L00581" duration="00:00:00.0220198" startTime="2011-06-03T15:19:15.8952005-04:00" endTime="2011-06-03T15:19:15.9152005-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe3cfc83-e61d-4021-bf62-d5d00829fca3">
+    </UnitTestResult>
+    <UnitTestResult executionId="98996708-ca5b-4e5f-9d18-13aafecc4e33" testId="cc5eb72a-b516-567b-7330-dd268199d6eb" testName="Test_Get_Filtered_Dinners_2_For_3_With_Filter_Succeeds" computerName="L00581" duration="00:00:00.2413209" startTime="2011-06-03T15:19:15.9252005-04:00" endTime="2011-06-03T15:19:16.1652009-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98996708-ca5b-4e5f-9d18-13aafecc4e33">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc3b50db-d531-4452-b736-eed8d0ade800" testId="8e13220e-1777-c64b-fde2-5d2e4e3fa683" testName="Test_Get_Filtered_Dinners_2_For_3_Without_Filter_Succeeds" computerName="L00581" duration="00:00:00.0213962" startTime="2011-06-03T15:19:16.1752009-04:00" endTime="2011-06-03T15:19:16.1952009-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc3b50db-d531-4452-b736-eed8d0ade800">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c5149a2-b4ac-4a15-9a72-79bafc0a8f5b" testId="6562fe35-171c-265c-c660-f286d267b4fd" testName="Test_Get_Filtered_RSVPs_First_10_Succeeds" computerName="L00581" duration="00:00:00.0899267" startTime="2011-06-03T15:19:16.1952009-04:00" endTime="2011-06-03T15:19:16.2852010-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c5149a2-b4ac-4a15-9a72-79bafc0a8f5b">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c4d4d54-88f3-4e5d-b85a-d9f2eb3c782a" testId="e55535a1-504b-28ee-3a5b-a4f8d3d18276" testName="Test_Update_Fails_With_Invalid_Dinner" computerName="L00581" duration="00:00:00.0602055" startTime="2011-06-03T15:19:16.2952010-04:00" endTime="2011-06-03T15:19:16.3552011-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c4d4d54-88f3-4e5d-b85a-d9f2eb3c782a">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb73e693-92f3-48e7-bf3e-10d32f5efc10" testId="e1965ec5-a929-3293-ce17-a60ffdd31721" testName="Test_Update_Succeeds_With_Valid_Dinner" computerName="L00581" duration="00:00:00.0732372" startTime="2011-06-03T15:19:16.3652011-04:00" endTime="2011-06-03T15:19:16.4452013-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb73e693-92f3-48e7-bf3e-10d32f5efc10">
+    </UnitTestResult>
+  </Results>
+</TestRun>
