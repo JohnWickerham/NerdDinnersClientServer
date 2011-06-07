@@ -12,10 +12,8 @@
     public class NerdDinnerService : INerdDinnerService
     {
         ////private const string BaseUri = "http://localhost:44301/RestfulNerds/NerdService/";
-        ////const string BaseUri = "http://localhost:3602/NerdService/";
+        private const string BaseUri = "http://localhost:3602/NerdService/";
 
-        private const string BaseUri = "http://localhost/RestfulNerds/NerdService/";
-        
         public DinnerSet GetFilteredDinners(int start, int count, string sortType, string sortColumn, string filter)
         {
             var client = GetAuthorizedHttpClient();
