@@ -76,13 +76,12 @@ namespace NerdDinnerDomainOperations
                 var filteredDinnerCount = filteredDinnerQuery.Count();
                 var sortColumnLower = sortColumn.ToLower();
 
-                Func<Dinner, string> orderingFunction =
-                    d =>
-                    sortColumnLower == "dinnerid" ? d.DinnerId.ToString()
-                        : sortColumnLower == "title" ? d.Title
-                              : sortColumnLower == "address" ? d.Address
-                                    : sortColumnLower == "eventdate" ? d.EventDate.ToString()
-                                        : d.Country;
+                var orderingFunction =
+                  sortColumnLower == "dinnerid" ? new Func<Dinner, IComparable>(d => d.DinnerId)
+                      : sortColumnLower == "title" ? new Func<Dinner, IComparable>(d => d.Title)
+                            : sortColumnLower == "address" ? new Func<Dinner, IComparable>(d => d.Address)
+                                  : sortColumnLower == "eventdate" ? new Func<Dinner, IComparable>(d => d.EventDate)
+                                      : new Func<Dinner, IComparable>(d => d.Country);
 
                 List<Dinner> sortedDinners;
                 if (sortType == "asc")
@@ -244,9 +243,7 @@ namespace NerdDinnerDomainOperations
 
                 var filteredCount = filteredQuery.Count();
                 var sortColumnLower = sortColumn.ToLower();
-
-                Func<Rsvp, string> orderingFunction =
-                    d => d.AttendeeEmail.ToString();
+                var orderingFunction = new Func<Rsvp, IComparable>(d => d.AttendeeEmail);
 
                 List<Rsvp> sortedRSVPs;
                 if (sortType == "asc")
